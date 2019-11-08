@@ -25,7 +25,7 @@ $databaseConnection = new DatabaseConnection();
 $result = $databaseConnection->makeConnectionWithDatabase();
 if ($result) {
     $databaseOperation = new DatabaseOperation();
-    $resp = $databaseOperation->insertDataIntoDatabase("Shoaib", "Male", "2015-01-05", "0300960", "shoaibmurtaza1@yahoo.com", "abc123", "abc123", $result);
+    $resp = $databaseOperation->insertDataIntoDatabase("Shoaib", "Male", "2015-01-05", "123123123123", "shoaibmurtaza1@yahoo.com", "abc123", "abc123", $result);
     if ($resp) {
         echo "Data inserted into database!";
     } else {
